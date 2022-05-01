@@ -3,6 +3,7 @@ body{
 }
 
 header{
+    padding: 20px 0;
     background-color: rgb(236, 85, 30);
 }
 
@@ -16,6 +17,16 @@ header{
     display: flex;
     flex-direction: row;
     font-size: 1.5em;
+}
+
+.barra-pes{
+    margin-left: 80px;
+    padding: 7px 80px;
+}
+
+.fig1{
+    display: flex;
+    flex-direction: row;
 }
 
 .img-h1{
