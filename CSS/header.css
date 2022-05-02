@@ -32,6 +32,7 @@ header{
     display: flex;
     flex-direction: row;
     color: azure;
+    padding-left: 20px;
 }
 
 .caption1 > a{
@@ -40,13 +41,14 @@ header{
 }
 
 .img-h1{
-    width: 1.8%;
-    height: 1.8%;
+    width: 2%;
+    height: 2%;
     color: azure;
+    padding: 0 20px;
 }
 
 .img-h2{
-    width: 1.8%;
-    height: 1.8%;
+    width: 2%;
+    height: 2%;
     color: azure;
 }
