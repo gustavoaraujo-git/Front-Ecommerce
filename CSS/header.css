@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    padding: 30px 0;
+    padding: 30px 0 0 0;
     background-color: #0060b1;
 }
 
@@ -24,31 +24,55 @@ header{
 }
 
 .barra-pes{
-    padding: 9px 80px;
-    border-radius: 5px;
+    padding: 10px 200px;
+    border-radius: 0.25rem;
+    border: #0060b1;
 }
 
 .fig1{
     display: flex;
     flex-direction: row;
-    color: azure;
+    align-items: center;
     padding-left: 20px;
+    color: azure;
 }
 
 .caption1 > a{
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: azure;
 }
 
 .img-h1{
-    width: 2%;
-    height: 2%;
+    width: 5%;
+    height: 5%;
     color: azure;
     padding: 0 20px;
 }
 
 .img-h2{
-    width: 2%;
-    height: 2%;
+    width: 5%;
+    height: 5%;
     color: azure;
 }
+
+.nav-sub{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 230, 0);
+    margin: 0;
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu2 > li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
