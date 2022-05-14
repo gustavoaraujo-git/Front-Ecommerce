@@ -21,6 +21,10 @@ main{
     height: 20%;
 }
 
+.placa-v1{
+    background-color: azure;
+}
+
 footer{
     display: flex;
     flex-direction: row;
