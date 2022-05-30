@@ -15,14 +15,17 @@ main{
     color: aliceblue;
 }
 
-.index-1{
-    padding: 0 0 40px 50px;
-    width: 20%;
-    height: 20%;
-}
-
-.placa-v1{
-    background-color: azure;
+.produto {
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+    font-family: Verdana, sans-serif;
+    border: solid 1px #CCC;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 260px;
+    margin: 5px 20px;
+    padding: 5px;
 }
 
 footer{
